@@ -25,7 +25,8 @@ Una factoría 4.0 desea implementar un software que sea capaz de crear y asignar
 
 ### Estilo MODEL-VIEW-CONTROLLER
 
-Descripción
+Descripción:
+
 comúnmente utilizado para desarrollar interfaces de usuario que divide la lógica del programa relacionado en tres elementos interconectados. 
 
 * Buena, porque los componentes de visualización, modelo y controlador se encuentran separados y esto hace que se pueden gestionar y realizar cambios en cualquiera de ellos sin interferir en los otros.
