@@ -51,6 +51,6 @@ Se basa en la detección, consumo y reacción a eventos, que representa un cambi
 * Mala, porque los eventos perdidos o descartados pueden provocar incoherencias en los datos o acciones perdidas.
 
 ## More Information
-[Mayor información sobre EDA](more_information.md)
+[Mayor información sobre EDA](info/More_Information.md)
 
 
