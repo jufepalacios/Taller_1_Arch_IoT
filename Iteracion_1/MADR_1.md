@@ -41,6 +41,7 @@ Chosen option: "Estilo por eventos: EDA", porque resuelve todos los requerimient
 ### Estilo por eventos
 
 Descripción:
+
 Se basa en la detección, consumo y reacción a eventos, que representa un cambio significativo en el estado de un sistema.
 
 * Buena, porque los componentes se comunican a través de eventos, lo que les permite estar desacoplados entre sí. Esto mejora la flexibilidad, escalabilidad y mantenibilidad.
