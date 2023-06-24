@@ -1,5 +1,5 @@
 ---
-status: {proposed}
+status: {accepted}
 date: {2023-06-22}
 deciders: {Julian Moreno, Santiago Segura}
 consulted: {Vihlai Maldonado, Nicolás Tibatá}
@@ -22,7 +22,16 @@ El sistema contará con dos algoritmos inteligentes predictivo para optimizar el
 
 * Patrón Strategy
 * Patrón State [Formato MADR](MADR_3_5_1.md)
+## Decision Outcome
 
+Chosen option: " Strategy ", porque de acuerdo con los requerimientos permite escoger entre los dos algoritmos de forma dinámica.
+
+### Consequences
+
+* Buena, permite intercambiar fácilmente diferentes algoritmos o estrategias en tiempo de ejecución.
+* Buena, permite agregar fácilmente nuevas estrategias sin modificar el objeto cliente lo que permite que sea más extensible.
+* Mala, porque al introducir más clases al código, aumenta la complejidad general del sistema.
+  
 ## Pros and Cons of the Options
 
 ### Strategy
