@@ -1,6 +1,6 @@
 ---
 # These are optional elements. Feel free to remove any of them.
-status: {proposed}
+status: {accepted}
 date: {2023-06-22}
 deciders: {Julián Moreno,Santiago Segura}
 consulted: {Vilhai Maldonado, Nicolás Tibatá}
@@ -25,6 +25,14 @@ Dentro de la factoría inteligente debe existir un sistema de notificaciones, qu
 
 
 <!-- This is an optional element. Feel free to remove. -->
+## Decision Outcome 
+
+Chosen option: “Observer” , porque cumple con las características del problema .
+
+### Consequences
+Buena,  ya que permite que los observadores puedan ver los cambios de estado y las notificaciones.
+Buena, porque se pueden agregar tantos observadores como se quiera
+Buena porque  se disminuye el acoplamiento entre los elementos.
 
 ## Pros and Cons of the Options
 
