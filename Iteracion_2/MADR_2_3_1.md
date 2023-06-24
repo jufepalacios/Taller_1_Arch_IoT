@@ -1,5 +1,5 @@
 ---
-status: {proposed}
+status: {approved}
 date: {2023-06-20}
 deciders: {Nicolas Tibatá, Vihlai Maldonado}
 consulted: {Julian Moreno, Santiago Segura}
@@ -23,6 +23,14 @@ La factoría 4.0 requiere que sus operarios estén permanentemente notificados d
 ## Considered Options
 * Chain of Responsibility
 * Circuit Breaker [Formato MADR](MADR_2_3_2.md)
+
+## Decision Outcome 
+Chosen option: Chain of Responsability porque resuelve los requerimientos funcionales de procesamiento de datos de los sensores.
+
+### Consequences
+* Buena, porque permite procesar la ifnromacion pasando por todos los otros sensores.
+* Buena, porque se puede distribuir el procesamiento en diferentes familias.
+* Neutral, habrá una ligera complejización en la arquitectura.
 
 ## Pros and Cons of the Options
 
