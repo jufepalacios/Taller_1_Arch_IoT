@@ -1,6 +1,6 @@
 ---
 # These are optional elements. Feel free to remove any of them.
-status: {proposed}
+status: {approved}
 date: {2023-06-20}
 deciders: {Julian Moreno, Santiago Segura}
 consulted: {Nicolas Tibatá, Vihlai Maldonado}
@@ -28,8 +28,18 @@ La factoría 4.0 requiere que sus operarios estén permanentemente notificados d
 * Apache ActiveMQ [Formato MADR](MADR_2_1_3.md)
 * Patrón Broker [Formato MADR](MADR_2_1_4.md)
 
+## Decision Outcome
+Chosen option: Apache Kafka, porque resuelve los requerimientos funcionales, permite mejor escalabailidad y tolerancia a fallos que las otras opciones consideradas. Esta solución implementa el patrón publicador suscriptor, el cuál cumplía los requerimientos funcionales, debido a esto se optó por escoger esta tecnología en lugar de desarrollar una que siguiera el patrón publicador/suscriptor.
+<!-- This is an optional element. Feel free to remove. -->
+### Consequences
 
+* Buena, porque ofrece alta escalabilidad y rendimiento
 
+* Buena, porque almacena los mensajes de forma persistente en disco, lo que garantiza la durabilidad de los datos incluso en caso de fallos.
+
+* Buena, porque utiliza una arquitectura distribuida lo que permite distribuir el procesamiento y almacenamiento de datos en múltiples nodos. Esto proporciona una mayor disponibilidad y capacidad de escalabilidad horizontal.
+
+* Neutral, porque dependiendo del tamaño del flujo de datos requiere una infraestructura robusta que soporte la replicación de datos, y nodos con gran capacidad, lo que puede incrementar los costos.
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
