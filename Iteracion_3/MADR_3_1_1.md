@@ -1,6 +1,6 @@
 ---
 # These are optional elements. Feel free to remove any of them.
-status: {proposed}
+status: {accepted}
 date: {2023-06-22}
 deciders: {Julián Moreno,Santiago Segura}
 consulted: {Vilhai Maldonado, Nicolás Tibatá}
@@ -24,7 +24,16 @@ Dentro de la factoría intelignete debe existir un componente de visualización.
 Power BI, 
 [Looker](MADR_3_1_2.md) , 
 [Google data studio](MADR_3_1_3.md)
-  
+
+## Decision Outcome
+
+Chosen option: “Power BI” , porque cumple con las características del problema .
+
+Consequences: 
+Buena, porque tiene diferentes conectores para bases de datos. 
+Buena, porque tiene la opción de visualización en tiempo real 
+Buena, porque  permite que sea embebido en otras aplicaciones.
+Mala, hay que pagar por las licencias a usar
 
 ## Pros and Cons of the Options
 
