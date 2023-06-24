@@ -28,8 +28,8 @@ Dentro de la factoría inteligente debe existir un componente de almacenamiento 
 <!-- This is an optional element. Feel free to remove. -->
 ## Decision Outcome
 
-### Chosen option: “MySQL” , porque cumple con las características del problema .
-Consequences
+Chosen option: “MySQL” , porque cumple con las características del problema .
+### Consequences
 Buena,  debido a que es de uso libre
 Buena, tiene buen performance con tamaño de datos grandes, ya que en este caso la cantidad de datos que genera los sensores es de alta cantidad. 
 Buena porque cuenta con ventajas para la seguridad de los datos.
