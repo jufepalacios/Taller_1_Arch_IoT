@@ -1,5 +1,5 @@
 ---
-status: {proposed}
+status: {approved}
 date: {2023-06-20}
 deciders: {Julian Moreno, Santiago Segura}
 consulted: {Nicolas Tibatá, Vihlai Maldonado}
@@ -25,6 +25,16 @@ La factoría 4.0 requiere que sus operarios estén permanentemente notificados d
 * Clase “LecturaSensor” 
 * Hub and Spoke [Formato MADR](MADR_2_2_2.md)
 * DAO [Formato MADR](MADR_2_2_3.md)
+
+## Decision Outcome
+Chosen option: "Clase LecturaSensor", porque es la solución más sencilla en cuanto a la lectura de datos dado por los dirvers de los sensores.
+
+### Consequences 
+* Buena, ya que simplifica el procesamiento de datos y el servicio de mensajería.
+* Buena, ya que es escalable y recibe todos los datos de manera estructurada con sus respectivos atributos.
+* Buena, pues recibe directo del driver del sensor y es eficiente en el envio de informacion al broker de mensajería.
+* Mala, pues es solo un mediador para recibir la informacion de los drivers y no permite una administración de los datos, solo es un canal de comunicación con el broker.
+
 
 ## Pros and Cons of the Options
 
