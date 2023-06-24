@@ -57,4 +57,4 @@ Apache Kafka es un almacen de datos distribuido optimizado para la ingestay proc
 
 <!-- This is an optional element. Feel free to remove. -->
 ## More Information
-[Mayor información sobre EDA](info/More_Information.md)
+[Mayor información sobre Apache Kafka](info/More_Information.md)
