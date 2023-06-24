@@ -1,6 +1,6 @@
 ---
 # These are optional elements. Feel free to remove any of them.
-status: {approved}
+status: {accepted}
 date: {2023-06-20}
 deciders: {Julian Moreno, Santiago Segura}
 consulted: {Nicolas Tibatá, Vihlai Maldonado}
