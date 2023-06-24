@@ -21,6 +21,11 @@ Una factoría 4.0 desea implementar un software que sea capaz de crear y asignar
 * Canal de transmisión – Comunicación entre los paquetes del sistema.
 * Lectura y Procesamiento – Capturar los valores registrados por los diferentes sensores y procesar su información.
 
+## Considered Options
+
+* Estilo por eventos (EDA, Event-Driven Architecture) [Formato MADR](MADR_1_1.md)
+* Estilo MODEL-VIEW-CONTROLLER (MVC)
+
 ## Pros and Cons of the Options
 
 ### Estilo MODEL-VIEW-CONTROLLER
